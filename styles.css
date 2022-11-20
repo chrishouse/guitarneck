@@ -1,0 +1,208 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	font-family: arial;
+}
+
+.neck{
+	width: 97%;
+	height: auto;
+	margin: 5% auto 0 auto;
+	position: relative;
+}
+
+.string{
+	clear: both;
+}
+
+.fret{
+	float: left;
+	height: 55px;
+	border-right: solid 5px gray;
+	text-align: center;
+	box-sizing: border-box;
+	position: relative;
+	display: flex;
+    justify-content: center;
+}
+
+.fret:hover, .label:hover{
+	cursor: pointer;
+}
+
+.fret-1{
+	width: 10%;
+}
+
+.fret-2{
+	width: 9.5%;
+}
+
+.fret-3{
+	width: 9%;
+}
+
+.fret-4{
+	width: 8.5%;
+}
+
+.fret-5{
+	width: 8%;
+}
+
+.fret-6{
+	width: 7.5%;
+}
+
+.fret-7{
+	width: 7%;
+}
+
+.fret-8{
+	width: 6.5%;
+}
+
+.fret-9{
+	width: 6%;
+}
+
+.fret-10{
+	width: 5.5%;
+}
+
+.fret-11{
+	width: 5%;
+}
+
+.fret-12{
+	width: 4.5%;
+}
+
+.fret > p{
+	display: none;
+	padding-top: 16px;
+    box-sizing: border-box;
+    width: 50px;
+    right: 30%;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.fret:nth-child(2){
+	border-left: solid 5px lightgray;
+}
+
+.label{
+	float: left;
+	padding: 10px;
+    width: 10px;
+}
+
+.label > p{
+	display: none;
+}
+
+.string-dots .fret{
+	border-color: transparent;
+	font-size: 30px;
+	padding-top: 0;
+	color: gray;
+}
+
+.string-dots .label{	
+	border-color: transparent;
+}
+
+.show-btn, .hide-btn{
+	margin: 20px;
+}
+
+.string-line{
+	position: absolute;
+	width: 90%;
+	height: 1px;
+	background-color: grey;
+}
+
+.string-line-high-e{
+	top: 25px;
+}
+
+.string-line-b{
+	top: 80px;
+}
+
+.string-line-g{
+	top: 135px;
+}
+
+.string-line-d{
+	top: 190px;
+}
+
+.string-line-a{
+	top: 245px;
+}
+
+.string-line-low-e{
+	top: 300px;
+}
+
+@media(max-width: 1300px){
+	.neck{
+		width: 99%;
+	}
+	.string-line{
+		width: 100%;
+	}
+	.fret-1{
+		width: 10.8%;
+	}
+
+	.fret-2{
+		width: 10.3%;
+	}
+
+	.fret-3{
+		width: 9.8%;
+	}
+
+	.fret-4{
+		width: 9.3%;
+	}
+
+	.fret-5{
+		width: 8.8%;
+	}
+
+	.fret-6{
+		width: 8.3%;
+	}
+
+	.fret-7{
+		width: 7.8%;
+	}
+
+	.fret-8{
+		width: 7.3%;
+	}
+
+	.fret-9{
+		width: 6.8%;
+	}
+
+	.fret-10{
+		width: 6.5%;
+	}
+
+	.fret-11{
+		width: 5.8%;
+	}
+
+	.fret-12{
+		width: 5.3%;
+	}
+}

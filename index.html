@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Guitar Neck</title>
+	<link rel="stylesheet" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</head>
+<body>
+	<button class="show-btn">Show All</button>
+	<button class="hide-btn">Hide All</button>
+	<div class="neck">
+		<div class="string-line string-line-high-e"></div>
+		<div class="string-line string-line-b"></div>
+		<div class="string-line string-line-g"></div>
+		<div class="string-line string-line-d"></div>
+		<div class="string-line string-line-a"></div>
+		<div class="string-line string-line-low-e"></div>
+
+		<div class="string string-high-e">
+			<div class="label"><p>E</p></div>
+			<div class="fret fret-1"><p>F</p></div>
+			<div class="fret fret-2"><p>F#/Gb</p></div>
+			<div class="fret fret-3"><p>G</p></div>
+			<div class="fret fret-4"><p>G#/Ab</p></div>
+			<div class="fret fret-5"><p>A</p></div>
+			<div class="fret fret-6"><p>A#/Bb</p></div>
+			<div class="fret fret-7"><p>B</p></div>
+			<div class="fret fret-8"><p>C</p></div>
+			<div class="fret fret-9"><p>C#/Db</p></div>
+			<div class="fret fret-10"><p>D</p></div>
+			<div class="fret fret-11"><p>D#/Eb</p></div>
+			<div class="fret fret-12"><p>E</p></div>
+		</div>
+		<div class="string string-b">
+			<div class="label"><p>B</p></div>
+			<div class="fret fret-1"><p>C</p></div>
+			<div class="fret fret-2"><p>C#/Db</p></div>
+			<div class="fret fret-3"><p>D</p></div>
+			<div class="fret fret-4"><p>D#/Eb</p></div>
+			<div class="fret fret-5"><p>E</p></div>
+			<div class="fret fret-6"><p>F</p></div>
+			<div class="fret fret-7"><p>F#/Gb</p></div>
+			<div class="fret fret-8"><p>G</p></div>
+			<div class="fret fret-9"><p>G#/Ab</p></div>
+			<div class="fret fret-10"><p>A</p></div>
+			<div class="fret fret-11"><p>A#/Bb</p></div>
+			<div class="fret fret-12"><p>B</p></div>
+		</div>
+		<div class="string string-g">
+			<div class="label"><p>G</p></div>
+			<div class="fret fret-1"><p>G#/Ab</p></div>
+			<div class="fret fret-2"><p>A</p></div>
+			<div class="fret fret-3"><p>A#/Bb</p></div>
+			<div class="fret fret-4"><p>B</p></div>
+			<div class="fret fret-5"><p>C</p></div>
+			<div class="fret fret-6"><p>C#/Db</p></div>
+			<div class="fret fret-7"><p>D</p></div>
+			<div class="fret fret-8"><p>D#/Eb</p></div>
+			<div class="fret fret-9"><p>E</p></div>
+			<div class="fret fret-10"><p>F</p></div>
+			<div class="fret fret-11"><p>F#/Gb</p></div>
+			<div class="fret fret-12"><p>G</p></div>
+		</div>
+		<div class="string string-d">
+			<div class="label"><p>D</p></div>
+			<div class="fret fret-1"><p>D#/Eb</p></div>
+			<div class="fret fret-2"><p>E</p></div>
+			<div class="fret fret-3"><p>F</p></div>
+			<div class="fret fret-4"><p>F#/Gb</p></div>
+			<div class="fret fret-5"><p>G</p></div>
+			<div class="fret fret-6"><p>G#/Ab</p></div>
+			<div class="fret fret-7"><p>A</p></div>
+			<div class="fret fret-8"><p>A#/Bb</p></div>
+			<div class="fret fret-9"><p>B</p></div>
+			<div class="fret fret-10"><p>C</p></div>
+			<div class="fret fret-11"><p>C#/Db</p></div>
+			<div class="fret fret-12"><p>D</p></div>
+		</div>
+		<div class="string string-a">
+			<div class="label"><p>A</p></div>
+			<div class="fret fret-1"><p>A#/Bb</p></div>
+			<div class="fret fret-2"><p>B</p></div>
+			<div class="fret fret-3"><p>C</p></div>
+			<div class="fret fret-4"><p>C#/Db</p></div>
+			<div class="fret fret-5"><p>D</p></div>
+			<div class="fret fret-6"><p>D#/Eb</p></div>
+			<div class="fret fret-7"><p>E</p></div>
+			<div class="fret fret-8"><p>F</p></div>
+			<div class="fret fret-9"><p>F#/Gb</p></div>
+			<div class="fret fret-10"><p>G</p></div>
+			<div class="fret fret-11"><p>G#/Ab</p></div>
+			<div class="fret fret-12"><p>A</p></div>
+		</div>
+		<div class="string string-low-e">
+			<div class="label"><p>E</p></div>
+			<div class="fret fret-1"><p>F</p></div>
+			<div class="fret fret-2"><p>F#/Gb</p></div>
+			<div class="fret fret-3"><p>G</p></div>
+			<div class="fret fret-4"><p>G#/Ab</p></div>
+			<div class="fret fret-5"><p>A</p></div>
+			<div class="fret fret-6"><p>A#/Bb</p></div>
+			<div class="fret fret-7"><p>B</p></div>
+			<div class="fret fret-8"><p>C</p></div>
+			<div class="fret fret-9"><p>C#/Db</p></div>
+			<div class="fret fret-10"><p>D</p></div>
+			<div class="fret fret-11"><p>D#/Eb</p></div>
+			<div class="fret fret-12"><p>E</p></div>
+		</div>
+		<div class="string string-dots">
+			<div class="label"></div>
+			<div class="fret fret-1">&bull;</div>
+			<div class="fret fret-2"></div>
+			<div class="fret fret-3">&bull;</div>
+			<div class="fret fret-4"></div>
+			<div class="fret fret-5">&bull;</div>
+			<div class="fret fret-6"></div>
+			<div class="fret fret-7">&bull;</div>
+			<div class="fret fret-8"></div>
+			<div class="fret fret-9">&bull;</div>
+			<div class="fret fret-10"></div>
+			<div class="fret fret-11"></div>
+			<div class="fret fret-12">&bull; &bull;</div>
+		</div>
+	</div>
+</body>
+</html>
